@@ -1,0 +1,126 @@
+body, html {
+    font-family: 'Lato', 'Helvetica Neue';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#root .row {
+    margin: 0;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#upload-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+#upload-card {
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    width: 18rem;
+}
+
+.main-container {
+    margin: 3rem 0;
+}
+
+.sidebar {
+    padding: 2rem;
+    margin-left: 0.5rem;
+
+    border-radius: 1rem;
+    box-shadow: #ddd 0 0 1rem;
+}
+
+.sidebar > h2 {
+    text-align: center;
+}
+
+.sidebar > .select-label {
+    padding: 0.5rem;
+}
+
+.analytics-container {
+    flex-shrink: 1 !important;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    
+    border-radius: 1rem;
+    box-shadow: #ddd 0 0 1rem;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: #ddd; */
+}
+
+.plot {
+    padding: 1rem;
+}
+
+.plot-title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#main-header {
+    text-align: center;
+}
+
+#main-header > h1 {
+    margin-top: 2rem;
+}
+
+#main-header > hr {
+    color: #ddd;
+    margin-bottom: 2rem;
+}
+
+.info-card-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.info-card {
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    border-width: 0;
+    box-shadow: #ddd 0 0 1rem;
+}
+
+.info-card .big-num {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+
+    padding: 1rem;
+
+    color: #ddd;
+    /* background-color: #444; */
+    background-color: rgb(33, 37, 41);
+    margin-top: auto;
+}
+
+#github-mark {
+    margin-bottom: 0.5rem;
+    width: 48px;
+    height: 48px;
+}
