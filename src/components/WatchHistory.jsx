@@ -302,9 +302,9 @@ export const WatchHistory = () => {
 
     return (
         <>
-            <Modal show={!historyObject}>
+            <Modal show={!historyObject} centered>
                 <Modal.Header>
-                    Upload your Google Takeout File Here
+                    Upload your Google Takeout File Here (<span className="inline-code">watch-history.json</span>)
                 </Modal.Header>
                 <Modal.Body>
                     <Link to="/help">What is this?</Link>

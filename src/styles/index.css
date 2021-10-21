@@ -124,3 +124,28 @@ a {
     width: 48px;
     height: 48px;
 }
+
+#help-container {
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    border-width: 0;
+    box-shadow: #ddd 0 0 1rem;
+}
+
+#help-container > h1 {
+    text-align: center;
+}
+
+#help-container > ol {
+    font-size: 1.2rem;
+}
+
+#help-container > ol > li {
+    margin: 0.5rem;
+}
+
+.inline-code {
+    font-family: 'Courier New' !important;
+    color: darkcyan;
+}
