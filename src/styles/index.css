@@ -36,7 +36,7 @@ a {
 
 .main-container {
     margin: 1rem auto;
-    width: 100vw;
+    width: 100%;
     max-width: 1920px;
 }
 
