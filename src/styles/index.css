@@ -35,7 +35,9 @@ a {
 }
 
 .main-container {
-    margin: 3rem 0;
+    margin: 1rem auto;
+    width: 100vw;
+    max-width: 1920px;
 }
 
 .sidebar {
@@ -50,8 +52,8 @@ a {
     text-align: center;
 }
 
-.sidebar > .select-label {
-    padding: 0.5rem;
+#single-year-container {
+    padding: 0.75rem;
 }
 
 .analytics-container {
@@ -61,9 +63,6 @@ a {
     
     border-radius: 1rem;
     box-shadow: #ddd 0 0 1rem;
-    /* border-width: 1px;
-    border-style: solid;
-    border-color: #ddd; */
 }
 
 .plot {
@@ -114,7 +113,6 @@ a {
     padding: 1rem;
 
     color: #ddd;
-    /* background-color: #444; */
     background-color: rgb(33, 37, 41);
     margin-top: auto;
 }
@@ -148,4 +146,9 @@ a {
 .inline-code {
     font-family: 'Courier New' !important;
     color: darkcyan;
+    margin-right: auto;
+}
+
+.hidden {
+    visibility: hidden !important;
 }

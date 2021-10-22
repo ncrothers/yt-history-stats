@@ -8,7 +8,7 @@ export const NavbarBase = () => {
 
     return (
         <Navbar className="p-2 px-3" bg="dark" variant="dark">
-            <Navbar.Brand to="/" as={Link}>YouTube History Stats</Navbar.Brand>
+            <Navbar.Brand to="/" as={Link}>YouTube Watch History Stats</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-nav" />
             <Navbar.Collapse id="navbar-nav">
                 <Nav className="me-auto">

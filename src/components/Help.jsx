@@ -7,7 +7,7 @@ export const Help = () => {
             <h1>How to get YouTube watch history from Google Takeout</h1>
             <hr />
             <ol>
-                <li>Navigate to <a href="https://takeout.google.com/settings/takeout">Google Takeout.</a></li>
+                <li>Navigate to <a href="https://takeout.google.com/settings/takeout" target="_blank" rel="noreferrer">Google Takeout</a>.</li>
                 <li>If prompted, log in to the Google account from which you want to retrieve YouTube watch history.</li>
                 <li>Click "Deselect all".</li>
                 <li>Scroll to the bottom and click the checkbox for "YouTube and YouTube Music".</li>
