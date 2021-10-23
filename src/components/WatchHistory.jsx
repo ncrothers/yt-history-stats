@@ -165,12 +165,12 @@ export const WatchHistory = () => {
             </Modal>
             <div className="main-container">
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-lg-3 col-md-3 col-sm-12 col-12">
                         <div className="sidebar">
                             <h2>Time Range</h2>
                             <p>Change what years to use for calculating the graphs on the right.</p>
                             <div className="row">
-                                <div className="col-6">
+                                <div className="col-lg-6 col-md-12">
                                     <div className="select-label">Start</div>
                                     <Form.Select 
                                         onChange={e => updateStartYear(e.target.value)}
@@ -182,7 +182,7 @@ export const WatchHistory = () => {
                                     }
                                     </Form.Select>
                                 </div>
-                                <div className="col-6">
+                                <div className="col-lg-6 col-md-12">
                                     <div className="select-label">End</div>
                                     <Form.Select
                                         onChange={e => updateEndYear(e.target.value)}
@@ -210,7 +210,7 @@ export const WatchHistory = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-9">
+                    <div className="col-lg-9 col-md-9 col-sm-12 col-12">
                         <div className="analytics-container">
                             <div id="main-header">
                                 <h1>YouTube Watch History Stats</h1>
@@ -239,32 +239,30 @@ export const WatchHistory = () => {
                             {statsObject &&
                                 <div id="plots">
                                     <div className="row">
-                                        <div className="col-6 plot">
+                                        <div className="col plot">
                                             <h1 className="plot-title">Videos by Month</h1>
                                             <div id="month-plot"></div>
                                         </div>
-                                        <div className="col-6 plot">
+                                        <div className="col plot">
                                             <h1 className="plot-title">Top Channels</h1>
                                             <div id="channel-plot"></div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-6 plot">
+                                        <div className="col plot">
                                             <h1 className="plot-title">Videos by Day</h1>
                                             <div id="days-plot"></div>
                                         </div>
-                                        <div className="col-6 plot">
+                                        <div className="col plot">
                                             <h1 className="plot-title">Videos by Hour</h1>
                                             <div id="hours-plot"></div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-3"></div>
-                                        <div className="col-6 plot">
+                                        <div className="col plot">
                                             <h1 className="plot-title">Top Words in Titles</h1>
                                             <div id="words-plot"></div>
                                         </div>
-                                        <div className="col-3"></div>
                                     </div>
                                 </div>
                             }

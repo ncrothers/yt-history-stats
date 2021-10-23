@@ -42,7 +42,7 @@ a {
 
 .sidebar {
     padding: 2rem;
-    margin-left: 0.5rem;
+    margin: 0.5rem;
 
     border-radius: 1rem;
     box-shadow: #ddd 0 0 1rem;
@@ -59,14 +59,16 @@ a {
 .analytics-container {
     flex-shrink: 1 !important;
     padding: 1rem;
-    margin-right: 0.5rem;
+    margin: 0.5rem;
     
     border-radius: 1rem;
     box-shadow: #ddd 0 0 1rem;
 }
 
 .plot {
-    padding: 1rem;
+    /* padding: 1rem; */
+    margin: 1rem 0;
+    min-width: 300px;
 }
 
 .plot-title {
@@ -89,12 +91,13 @@ a {
 
 .info-card-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 2rem;
 }
 
 .info-card {
-    margin: 0 1rem;
+    margin: 1rem;
     padding: 1rem 2rem;
     text-align: center;
     border-radius: 1rem;
